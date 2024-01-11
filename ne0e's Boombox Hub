@@ -1071,7 +1071,7 @@ Section:NewButton("Hidden Boombox (1)", "", function()
                                                     loadstring(game:HttpGet(("https://raw.githubusercontent.com/MirayXS/Aux/main/Pineapple.lua"), true))()
                                                 end)
 
-                                                Section:NewButton("Awa-Ware", "", function()
+                                                Section:NewButton("Asset-Ware", "", function()
                                                     loadstring(game:HttpGet('https://antilu.me/s.lua'))()
                                                 end)
 
