@@ -1536,3 +1536,16 @@ end
 drag(aa.PopupFrame)
 
 end)
+
+
+
+
+
+local Tab = Window:NewTab("UI Setting")
+
+
+    local Section = Tab:NewSection("Toggle UI")
+
+Section:NewKeybind("Select Keybind:", "keybind to toggle the gui", Enum.KeyCode.RightControl, function()
+	Library:ToggleUI()
+end)
