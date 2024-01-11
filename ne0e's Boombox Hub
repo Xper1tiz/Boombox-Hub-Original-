@@ -1081,10 +1081,6 @@ Section:NewButton("Hidden Boombox (1)", "", function()
                                                    local Tab = Window:NewTab("Useful Scripts")
                                                    local Section = Tab:NewSection("Scripts")
 
-                                                   Section:NewButton("Fling All", "", function()
-                                                    loadstring(game:HttpGet("https://pastebin.com/raw/Ns8hkFDH", true))()
-                                                    end)
-
                                                     Section:NewButton("Keyboard", "", function()
                                                         loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
                                                     end)
@@ -1093,7 +1089,7 @@ Section:NewButton("Hidden Boombox (1)", "", function()
                                                         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
                                                     end)
 
-Section:NewButton("Fling All", "", function()
+Section:NewButton(" Audio Logger", "", function()
 aa = game:GetObjects("rbxassetid://01997056190")[1]
 aa.Parent = game.CoreGui
 wait(0.2)
